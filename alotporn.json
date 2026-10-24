@@ -1,0 +1,20 @@
+{
+ "id": "alotporn",
+ "name": "AlotPorn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "alotporn\\.com/video/\\d+/",
+ "icon": "alotporn.png",
+ "html": {
+  "site": "https://www.alotporn.com",
+  "search": "https://www.alotporn.com/search/{qp}/",
+  "searchPage": "https://www.alotporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item",
+  "href": "href=\"(https://www\\.alotporn\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"time\">([0-9:]+)<",
+  "paged": true
+ }
+}

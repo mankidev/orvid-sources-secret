@@ -1,0 +1,10 @@
+{
+ "id": "porntop",
+ "name": "PornTop",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?porntop\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "porntop.png",
+ "script": "porntop.js"
+}

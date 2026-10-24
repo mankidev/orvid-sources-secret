@@ -1,0 +1,20 @@
+{
+ "id": "luxuretv",
+ "name": "LuxureTV",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "luxuretv\\.com/videos/[^\\s\\\"]+-\\d+\\.html",
+ "icon": "luxuretv.png",
+ "html": {
+  "site": "https://en.luxuretv.com",
+  "search": "https://en.luxuretv.com/searchgate/videos/{qp}/",
+  "searchPage": "https://en.luxuretv.com/searchgate/videos/{qp}/page{p}.html",
+  "card": "<div class=\"content\">",
+  "href": "href=\"(https://en\\.luxuretv\\.com/videos/[^\"]+\\.html)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"time\"><b>([0-9:]+)<",
+  "views": "class=\"views\"><b>([^<]+)<"
+ }
+}

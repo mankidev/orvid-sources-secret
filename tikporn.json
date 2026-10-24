@@ -1,0 +1,10 @@
+{
+ "id": "tikporn",
+ "name": "TikPorn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?tikporn\\.tube/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "tikporn.png",
+ "script": "tikporn.js"
+}

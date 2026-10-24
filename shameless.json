@@ -1,0 +1,18 @@
+{
+ "id": "shameless",
+ "name": "Shameless",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "shameless\\.com/videos/[^\\s\\\"/]+/",
+ "icon": "shameless.png",
+ "html": {
+  "site": "https://shameless.com",
+  "search": "https://www.shameless.com/search/?q={q}",
+  "card": "<div class=\"item card\">",
+  "href": "href=\"(https://shameless\\.com/videos/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "views": "class=\"info-item\">\\s*([0-9 ]+) views"
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "id": "o1tube",
+ "name": "01Tube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?01tube\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "o1tube.png",
+ "script": "o1tube.js"
+}

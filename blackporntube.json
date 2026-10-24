@@ -1,0 +1,10 @@
+{
+ "id": "blackporntube",
+ "name": "BlackPornTube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?blackporn\\.tube/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "blackporntube.png",
+ "script": "blackporntube.js"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "bdsmx",
+ "name": "BDSMX",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?bdsmx\\.tube/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "bdsmx.png",
+ "script": "bdsmx.js"
+}

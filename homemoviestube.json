@@ -1,0 +1,20 @@
+{
+ "id": "homemoviestube",
+ "name": "HomeMoviesTube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "homemoviestube\\.com/videos/\\d+/",
+ "icon": "homemoviestube.png",
+ "html": {
+  "site": "https://www.homemoviestube.com",
+  "search": "https://www.homemoviestube.com/search/{qp}/",
+  "searchPage": "https://www.homemoviestube.com/search/{qp}/page{p}.html",
+  "card": "<article class=\"media-card video-card",
+  "href": "href=\"(https://www\\.homemoviestube\\.com/videos/\\d+/[^\"]+\\.html)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "<img src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "([0-9]{1,2}:[0-9]{2}(?::[0-9]{2})?)",
+  "paged": true
+ }
+}

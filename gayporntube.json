@@ -2,7 +2,7 @@
  "id": "gayporntube",
  "name": "GayPornTube",
  "rank": 32,
- "version": 1,
+ "version": 2,
  "adult": true,
  "weight": 0.6,
  "match": "gayporntube\\.com/video/\\d+/[^\\s\"?#]+",
@@ -16,5 +16,6 @@
   "title": "title=\"([^\"]+)\"",
   "thumb": "data-src=\"([^\"]+)\"",
   "duration": ">\\s*(\\d{1,2}:\\d{2}(?::\\d{2})?)\\s*<"
- }
+ },
+ "orientation": "gay"
 }

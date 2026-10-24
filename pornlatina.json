@@ -1,0 +1,10 @@
+{
+ "id": "pornlatina",
+ "name": "PornLatina",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?porn-latina\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "pornlatina.png",
+ "script": "pornlatina.js"
+}

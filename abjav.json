@@ -1,0 +1,10 @@
+{
+ "id": "abjav",
+ "name": "AbJav",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?abjav\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "abjav.png",
+ "script": "abjav.js"
+}

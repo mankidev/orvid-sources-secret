@@ -3,5 +3,7 @@
  "name": "BoyfriendTV",
  "rank": 20,
  "engine": "boyfriendtv",
- "adult": true
+ "adult": true,
+ "orientation": "gay",
+ "version": 2
 }

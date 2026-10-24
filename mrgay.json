@@ -1,0 +1,11 @@
+{
+ "id": "mrgay",
+ "name": "MrGay",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?mrgay\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "mrgay.png",
+ "orientation": "gay",
+ "script": "mrgay.js"
+}

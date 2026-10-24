@@ -1,0 +1,19 @@
+{
+ "id": "eroprofile",
+ "name": "EroProfile",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "eroprofile\\.com/m/videos/view/[^\\s\\\"?#]+",
+ "icon": "eroprofile.png",
+ "html": {
+  "site": "https://www.eroprofile.com",
+  "search": "https://www.eroprofile.com/m/videos/search?text={q}",
+  "searchPage": "https://www.eroprofile.com/m/videos/search?text={q}&pnum={p}",
+  "card": "<div class=\"grid-tile-video\">",
+  "href": "href=\"(/m/videos/view/[^\"]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https://[^\"]+)\"",
+  "duration": "class=\"duration\">([0-9:]+)<"
+ }
+}

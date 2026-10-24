@@ -1,0 +1,20 @@
+{
+ "id": "bigtitslust",
+ "name": "BigTitsLust",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bigtitslust\\.com/videos/\\d+/",
+ "icon": "bigtitslust.png",
+ "html": {
+  "site": "https://www.bigtitslust.com",
+  "search": "https://www.bigtitslust.com/search/{qp}/",
+  "searchPage": "https://www.bigtitslust.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item ",
+  "href": "href=\"(https://www\\.bigtitslust\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "(?:data-original|src)=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\">([0-9:]+)<",
+  "paged": true
+ }
+}

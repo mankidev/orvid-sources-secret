@@ -1,7 +1,7 @@
 {
  "id": "transtube",
  "name": "Transtube",
- "version": 2,
+ "version": 3,
  "adult": true,
  "weight": 0.6,
  "match": "transtube\\.tv/videos/\\d+",
@@ -19,5 +19,6 @@
    "from": "transtube\\.tv/videos?/(\\d+)",
    "to": "https://www.transtube.tv/embed/$1"
   }
- }
+ },
+ "orientation": "trans"
 }

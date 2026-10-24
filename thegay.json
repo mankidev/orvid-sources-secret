@@ -1,10 +1,11 @@
 {
  "id": "thegay",
  "name": "TheGay",
- "version": 1,
+ "version": 2,
  "adult": true,
  "weight": 0.5,
  "match": "https?://(?:www\\.)?thegay\\.com/(?:videos?[/-]|embed/)(\\d+)",
  "icon": "thegay.png",
- "script": "thegay.js"
+ "script": "thegay.js",
+ "orientation": "gay"
 }

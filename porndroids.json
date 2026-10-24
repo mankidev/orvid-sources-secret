@@ -1,0 +1,18 @@
+{
+ "id": "porndroids",
+ "name": "PornDroids",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porndroids\\.com/video/[^\\s\\\"/]+/",
+ "icon": "porndroids.png",
+ "html": {
+  "site": "https://www.porndroids.com",
+  "search": "https://www.porndroids.com/search/?q={q}",
+  "card": "grid__item--video-thumb",
+  "href": "href=\"(/video/[^\"]+/)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "duration-video\">\\s*([0-9:]+)"
+ }
+}

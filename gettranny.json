@@ -1,0 +1,11 @@
+{
+ "id": "gettranny",
+ "name": "GetTranny",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?gettranny\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "gettranny.png",
+ "orientation": "trans",
+ "script": "gettranny.js"
+}
