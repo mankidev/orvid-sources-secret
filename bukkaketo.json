@@ -1,0 +1,20 @@
+{
+ "id": "bukkaketo",
+ "name": "Bukkake.to",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bukkake\\.to/videos/\\d+/",
+ "icon": "bukkaketo.png",
+ "html": {
+  "site": "https://bukkake.to",
+  "search": "https://bukkake.to/search/{qp}/",
+  "searchPage": "https://bukkake.to/search/{qp}/?from_videos={p}",
+  "card": "itemtype=\"http://schema.org/Movie\"",
+  "href": "href=\"(https://bukkake\\.to/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "data-duration=\"([0-9:]+)\"",
+  "paged": true
+ }
+}

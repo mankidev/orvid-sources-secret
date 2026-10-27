@@ -1,0 +1,20 @@
+{
+ "id": "analpornvids",
+ "name": "AnalPornVids",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "analpornvids\\.com/video/[a-z0-9-]+/",
+ "icon": "analpornvids.png",
+ "html": {
+  "site": "https://analpornvids.com",
+  "search": "https://analpornvids.com/?s={q}",
+  "searchPage": "https://analpornvids.com/page/{p}/?s={q}",
+  "card": "<div id=\"post-",
+  "href": "href=\"(https://analpornvids\\.com/video/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "background-image: url\\((https://[^)]+\\.jpg)\\)",
+  "duration": "class=\"video-duration\">\\s*([0-9:]+)",
+  "paged": true
+ }
+}
