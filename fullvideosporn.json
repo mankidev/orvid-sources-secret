@@ -1,0 +1,10 @@
+{
+ "id": "fullvideosporn",
+ "name": "FullVideosPorn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?fullvideosporn\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "fullvideosporn.png",
+ "script": "fullvideosporn.js"
+}

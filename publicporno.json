@@ -1,0 +1,21 @@
+{
+ "id": "publicporno",
+ "name": "PublicPorno",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "public-porno\\.com/video/\\d+/",
+ "icon": "publicporno.png",
+ "html": {
+  "site": "https://public-porno.com",
+  "search": "https://public-porno.com/search/{qp}/",
+  "searchPage": "https://public-porno.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://public-porno\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}

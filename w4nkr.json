@@ -1,0 +1,21 @@
+{
+ "id": "w4nkr",
+ "name": "W4nkr",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "w4nkr\\.com/video/\\d+/",
+ "icon": "w4nkr.png",
+ "html": {
+  "site": "https://w4nkr.com",
+  "search": "https://w4nkr.com/search/{qp}/",
+  "searchPage": "https://w4nkr.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://w4nkr\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "faapy",
+ "name": "Faapy",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "faapy\\.com/videos/\\d+/",
+ "icon": "faapy.png",
+ "html": {
+  "site": "https://faapy.com",
+  "search": "https://faapy.com/search/{qp}/",
+  "searchPage": "https://faapy.com/search/{qp}/?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=post_date&from={p}",
+  "card": "<div class=\"item thumb",
+  "href": "href=\"(https://faapy\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "paged": true,
+  "views": "icon-eye\"></i>\\s*<span>([^<]+)<"
+ }
+}

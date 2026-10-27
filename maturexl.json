@@ -1,0 +1,21 @@
+{
+ "id": "maturexl",
+ "name": "MatureXL",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "maturexl\\.com/video/\\d+/",
+ "icon": "maturexl.png",
+ "html": {
+  "site": "https://maturexl.com",
+  "search": "https://maturexl.com/search/{qp}/",
+  "searchPage": "https://maturexl.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://maturexl\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}

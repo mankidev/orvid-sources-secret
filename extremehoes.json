@@ -1,0 +1,21 @@
+{
+ "id": "extremehoes",
+ "name": "ExtremeHoes",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "extremehoes\\.com/video/\\d+/",
+ "icon": "extremehoes.png",
+ "html": {
+  "site": "https://extremehoes.com",
+  "search": "https://extremehoes.com/search/{qp}/",
+  "searchPage": "https://extremehoes.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://extremehoes\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}

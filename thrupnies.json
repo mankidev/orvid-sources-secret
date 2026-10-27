@@ -1,0 +1,21 @@
+{
+ "id": "thrupnies",
+ "name": "Thrupnies",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "thrupnies\\.com/video/\\d+/",
+ "icon": "thrupnies.png",
+ "html": {
+  "site": "https://thrupnies.com",
+  "search": "https://thrupnies.com/search/{qp}/",
+  "searchPage": "https://thrupnies.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://thrupnies\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}

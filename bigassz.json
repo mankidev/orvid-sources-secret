@@ -1,0 +1,21 @@
+{
+ "id": "bigassz",
+ "name": "BigAssz",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bigassz\\.com/video/\\d+/",
+ "icon": "bigassz.png",
+ "html": {
+  "site": "https://bigassz.com",
+  "search": "https://bigassz.com/search/{qp}/",
+  "searchPage": "https://bigassz.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://bigassz\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}

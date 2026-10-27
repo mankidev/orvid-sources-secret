@@ -1,0 +1,20 @@
+{
+ "id": "punishbang",
+ "name": "PunishBang",
+ "version": 1,
+ "adult": true,
+ "weight": 0.4,
+ "match": "punishbang\\.com/video/\\d+/",
+ "icon": "punishbang.png",
+ "html": {
+  "site": "https://www.punishbang.com",
+  "search": "https://www.punishbang.com/search/{qp}/",
+  "searchPage": "https://www.punishbang.com/search/{qp}/{p}/",
+  "card": "<div class=\"cards__item",
+  "href": "href=\"(https://www\\.punishbang\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"flag\">([0-9:]+)<",
+  "paged": true
+ }
+}

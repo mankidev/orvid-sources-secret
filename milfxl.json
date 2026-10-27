@@ -1,0 +1,21 @@
+{
+ "id": "milfxl",
+ "name": "MilfXL",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "milfxl\\.com/video/\\d+/",
+ "icon": "milfxl.png",
+ "html": {
+  "site": "https://milfxl.com",
+  "search": "https://milfxl.com/search/{qp}/",
+  "searchPage": "https://milfxl.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://milfxl\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}
