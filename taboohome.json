@@ -1,0 +1,10 @@
+{
+ "id": "taboohome",
+ "name": "TabooHome",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "taboohome\\.net/video/id=th_\\d+_",
+ "icon": "taboohome.png",
+ "script": "taboohome.js"
+}
