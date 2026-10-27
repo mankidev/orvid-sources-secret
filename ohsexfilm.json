@@ -1,0 +1,19 @@
+{
+ "id": "ohsexfilm",
+ "name": "OhSexFilm",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "ohsexfilm\\.com/videos/[A-Za-z0-9-]+-\\d+/",
+ "icon": "ohsexfilm.png",
+ "html": {
+  "site": "https://www.ohsexfilm.com",
+  "search": "https://www.ohsexfilm.com/search/{qp}/",
+  "searchPage": "https://www.ohsexfilm.com/search/{qp}/{p}/",
+  "card": "<div class=\"video_preview_info\">",
+  "href": "href=\"(https://www\\.ohsexfilm\\.com/videos?/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

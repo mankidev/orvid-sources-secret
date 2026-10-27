@@ -1,0 +1,19 @@
+{
+ "id": "porneff",
+ "name": "PornEff",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porneff\\.com/videos?/\\d+/",
+ "icon": "porneff.png",
+ "html": {
+  "site": "https://www.porneff.com",
+  "search": "https://www.porneff.com/search/{qp}/",
+  "searchPage": "https://www.porneff.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item ",
+  "href": "href=\"(https://www\\.porneff\\.com/videos?/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "id": "hotcumporn",
+ "name": "HotCumPorn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hotcumporn\\.com/videos/[a-z0-9-]+-\\d+/",
+ "icon": "hotcumporn.png",
+ "html": {
+  "site": "https://www.hotcumporn.com",
+  "search": "https://www.hotcumporn.com/search/{qp}/",
+  "searchPage": "https://www.hotcumporn.com/search/{qp}/{p}/",
+  "card": "<div class=\"content_preview_info\">",
+  "href": "href=\"(https://www\\.hotcumporn\\.com/videos?/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

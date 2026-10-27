@@ -1,0 +1,19 @@
+{
+ "id": "ceskeporno",
+ "name": "CeskePorno",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "ceskeporno\\.cz/videos?/[^/]+",
+ "icon": "ceskeporno.png",
+ "html": {
+  "site": "https://ceskeporno.cz",
+  "search": "https://ceskeporno.cz/search/{qp}/",
+  "searchPage": "https://ceskeporno.cz/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item   \"",
+  "href": "href=\"(https://ceskeporno\\.cz/videos?/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}
