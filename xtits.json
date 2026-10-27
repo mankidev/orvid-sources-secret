@@ -1,0 +1,20 @@
+{
+ "id": "xtits",
+ "name": "XTits",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xtits\\.com/videos/\\d+/",
+ "icon": "xtits.png",
+ "html": {
+  "site": "https://www.xtits.com",
+  "search": "https://www.xtits.com/search/{qp}/",
+  "searchPage": "https://www.xtits.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item thumb-item",
+  "href": "href=\"(https://www\\.xtits\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"label time\">\\s*<i[^>]*></i>\\s*([0-9:]+)",
+  "paged": true
+ }
+}

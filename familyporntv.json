@@ -1,0 +1,20 @@
+{
+ "id": "familyporntv",
+ "name": "FamilyPorn.tv",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "familyporn\\.tv/videos/[a-z0-9-]+/",
+ "icon": "familyporntv.png",
+ "html": {
+  "site": "https://familyporn.tv",
+  "search": "https://familyporn.tv/search/{qp}/",
+  "searchPage": "https://familyporn.tv/search/{qp}/?from_videos={p}",
+  "card": "<li class=\"item\">",
+  "href": "href=\"(https://familyporn\\.tv/videos/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\">\\s*([0-9:]+)",
+  "paged": true
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "id": "boobse",
+ "name": "Boobse",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?boobse\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "boobse.png",
+ "script": "boobse.js"
+}
