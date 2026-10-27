@@ -1,0 +1,18 @@
+{
+ "id": "sexplex",
+ "name": "Sexplex",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexplex\\.com/video/\\d+/",
+ "icon": "sexplex.png",
+ "html": {
+  "site": "https://sexplex.com",
+  "search": "https://sexplex.com/search/{qp}/",
+  "card": "<a href=\"/video/",
+  "href": "href=\"(/video/\\d+/[^\"]+/)\"",
+  "title": "class=\"title\"[^>]*>([^<]+)<",
+  "thumb": "src=\"(https://img\\.sexplex\\.com/[^\"]+\\.jpg)",
+  "duration": "class=\"duration\"[^>]*>([0-9:]+)<"
+ }
+}

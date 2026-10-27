@@ -1,0 +1,20 @@
+{
+ "id": "uiporn",
+ "name": "UiPorn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "uiporn\\.com/videos/[^/]+-\\d+/",
+ "icon": "uiporn.png",
+ "html": {
+  "site": "https://www.uiporn.com",
+  "search": "https://www.uiporn.com/search/{qp}/",
+  "searchPage": "https://www.uiporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"grid-item item",
+  "href": "href=\"(https://www\\.uiporn\\.com/videos/[^\"]+-\\d+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "duration-value\">([0-9:]+)<",
+  "paged": true
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "allpornhere",
+ "name": "AllPornHere",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "allpornhere\\.com/video/\\d+/",
+ "icon": "allpornhere.png",
+ "html": {
+  "site": "https://allpornhere.com",
+  "search": "https://allpornhere.com/search/{qp}/",
+  "searchPage": "https://allpornhere.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item",
+  "href": "href=\"(https://allpornhere\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"time\">([0-9:]+)<",
+  "paged": true
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "id": "baddiesxxx",
+ "name": "Baddies.xxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "baddies\\.xxx/videos/[^/]+/",
+ "icon": "baddiesxxx.png",
+ "html": {
+  "site": "https://baddies.xxx",
+  "search": "https://baddies.xxx/search/{qp}/",
+  "card": "<div class=\"bx-item item",
+  "href": "href=\"(https://baddies\\.xxx/videos/[^\"]+/)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "bx-item-duration[^>]*>([0-9:]+)<"
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "id": "porndr",
+ "name": "PornDr",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porndr\\.com/videos/\\d+/",
+ "icon": "porndr.png",
+ "script": "porndr.js"
+}

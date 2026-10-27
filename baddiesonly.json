@@ -1,0 +1,18 @@
+{
+ "id": "baddiesonly",
+ "name": "BaddiesOnly",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "baddiesonly\\.tv/videos/\\d+/",
+ "icon": "baddiesonly.png",
+ "html": {
+  "site": "https://baddiesonly.tv",
+  "search": "https://baddiesonly.tv/search/{qp}/",
+  "card": "<div class=\"item ",
+  "href": "href=\"(https://baddiesonly\\.tv/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "duration-time\">([0-9:]+)<"
+ }
+}

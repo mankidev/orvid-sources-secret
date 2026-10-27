@@ -1,0 +1,20 @@
+{
+ "id": "yoloxxx",
+ "name": "YoloXXX",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "yoloxxx\\.com/videos/\\d+/",
+ "icon": "yoloxxx.png",
+ "html": {
+  "site": "https://yoloxxx.com",
+  "search": "https://yoloxxx.com/search/{qp}/",
+  "searchPage": "https://yoloxxx.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item thumb-bl",
+  "href": "href=\"(https://yoloxxx\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "fa-clock-o\"></i>\\s*<span>([0-9:]+)<",
+  "paged": true
+ }
+}

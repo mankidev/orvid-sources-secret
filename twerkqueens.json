@@ -1,0 +1,21 @@
+{
+ "id": "twerkqueens",
+ "name": "TwerkQueens",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "twerkqueens\\.com/video/[^/]+-\\d+\\.html",
+ "icon": "twerkqueens.png",
+ "html": {
+  "site": "https://twerkqueens.com",
+  "search": "https://twerkqueens.com/search/{qp}/",
+  "searchPage": "https://twerkqueens.com/search/{qp}/page{p}.html",
+  "card": "<div class=\"item-col -video",
+  "href": "href=\"(https://twerkqueens\\.com/video/[^\"]+-\\d+\\.html)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "<img src=\"(https://twerkqueens\\.com/media/thumbs/[^\"]+\\.jpg)\"",
+  "duration": "tq-dur\">([0-9:]+)<",
+  "views": "([0-9]+) views",
+  "paged": true
+ }
+}

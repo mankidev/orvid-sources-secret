@@ -1,0 +1,20 @@
+{
+ "id": "japanwhores",
+ "name": "Japan Whores",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "japan-whores\\.com/videos/\\d+/",
+ "icon": "japanwhores.png",
+ "html": {
+  "site": "https://japan-whores.com",
+  "search": "https://japan-whores.com/search/{qp}/",
+  "searchPage": "https://japan-whores.com/search/{qp}/{p}/",
+  "card": "<div class=\"item thumb\"",
+  "href": "href=\"(https://japan-whores\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"time\">([0-9:]+)<",
+  "paged": true
+ }
+}

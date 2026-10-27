@@ -1,0 +1,20 @@
+{
+ "id": "pornfreenow",
+ "name": "PornFreeNow",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornfreenow\\.com/videos/\\d+/",
+ "icon": "pornfreenow.png",
+ "html": {
+  "site": "https://www.pornfreenow.com",
+  "search": "https://www.pornfreenow.com/search/{qp}/",
+  "searchPage": "https://www.pornfreenow.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item ",
+  "href": "href=\"(https://www\\.pornfreenow\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\">([0-9:]+)<",
+  "paged": true
+ }
+}

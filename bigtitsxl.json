@@ -1,0 +1,21 @@
+{
+ "id": "bigtitsxl",
+ "name": "BigTitsXL",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bigtitsxl\\.com/video/\\d+/",
+ "icon": "bigtitsxl.png",
+ "html": {
+  "site": "https://bigtitsxl.com",
+  "search": "https://bigtitsxl.com/search/{qp}/",
+  "searchPage": "https://bigtitsxl.com/search/{qp}/{p}/",
+  "card": "<div data-fq-video-card=",
+  "href": "href=\"(https://bigtitsxl\\.com/video/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"badge\">\\s*(?:<span[^>]*>[^<]*</span>\\s*)?([0-9:]+)",
+  "views": "([0-9.]+[KM]?) Views",
+  "paged": true
+ }
+}

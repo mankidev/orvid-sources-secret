@@ -1,0 +1,10 @@
+{
+ "id": "javhdtube",
+ "name": "JavHDTube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "javhdtube\\.com/video/\\d+/",
+ "icon": "javhdtube.png",
+ "script": "javhdtube.js"
+}

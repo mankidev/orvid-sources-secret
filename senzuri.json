@@ -1,0 +1,10 @@
+{
+ "id": "senzuri",
+ "name": "Senzuri",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?senzuri\\.tube/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "senzuri.png",
+ "script": "senzuri.js"
+}

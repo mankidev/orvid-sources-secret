@@ -1,0 +1,17 @@
+{
+ "id": "shesfreaky",
+ "name": "ShesFreaky",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "shesfreaky\\.com/video/[^/]+-\\d+\\.html",
+ "html": {
+  "site": "https://shesfreaky.com",
+  "search": "https://shesfreaky.com/search/{q}",
+  "card": "class=\"video-card mb-5\"",
+  "href": "href=\"(/video/[^\"]+-\\d+\\.html)\"",
+  "title": "video-card-meta[^>]*>\\s*<a href=\"[^\"]+\">([^<]+)<",
+  "thumb": "src=\"((?:https:)?//cdn\\d*\\.shesfreaky\\.com/thumbs/[^\"]+\\.jpg)\"",
+  "duration": "video-card-duration[^>]*>([0-9:]+)<"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "baddies247",
+ "name": "Baddies247",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "baddies247\\.com/videos/\\d+/",
+ "icon": "baddies247.png",
+ "html": {
+  "site": "https://baddies247.com",
+  "search": "https://baddies247.com/search/{qp}/",
+  "searchPage": "https://baddies247.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item ",
+  "href": "href=\"(https://baddies247\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "duration-time\">([0-9:]+)<",
+  "paged": true
+ }
+}

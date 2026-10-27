@@ -1,0 +1,20 @@
+{
+ "id": "maturetubehere",
+ "name": "MatureTubeHere",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "maturetubehere\\.com/videos/\\d+/",
+ "icon": "maturetubehere.png",
+ "html": {
+  "site": "https://www.maturetubehere.com",
+  "search": "https://www.maturetubehere.com/search/{qp}/",
+  "searchPage": "https://www.maturetubehere.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item ",
+  "href": "href=\"(https://www\\.maturetubehere\\.com/videos/\\d+/[^\"]+/)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\">([0-9:]+)<",
+  "paged": true
+ }
+}
