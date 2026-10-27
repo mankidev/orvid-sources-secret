@@ -1,0 +1,10 @@
+{
+ "id": "allclassic",
+ "name": "AllClassic",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "allclassic\\.porn/videos/\\d+/",
+ "icon": "allclassic.png",
+ "script": "allclassic.js"
+}
