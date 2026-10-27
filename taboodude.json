@@ -1,0 +1,20 @@
+{
+ "id": "taboodude",
+ "name": "TabooDude",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "taboodude\\.com/video/[a-z0-9-]+-\\d+",
+ "icon": "taboodude.png",
+ "html": {
+  "site": "https://taboodude.com",
+  "search": "https://taboodude.com/search?q={qp}",
+  "card": "<div class=\"item ",
+  "href": "href=\"(/video/[^\"]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https://[^\"]+\\.webp)\"",
+  "duration": "class=\"duration\">\\s*([0-9:]+)",
+  "searchPage": "https://taboodude.com/search?q={qp}&page={p}",
+  "paged": true
+ }
+}
