@@ -1,0 +1,20 @@
+{
+ "id": "playhdporn",
+ "name": "Playhdporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "playhdporn\\.com/video/[^\\s\"?#]+",
+ "icon": "playhdporn.png",
+ "html": {
+  "site": "https://playhdporn.com",
+  "search": "https://playhdporn.com/search/{qp}/",
+  "searchPage": "https://playhdporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://playhdporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

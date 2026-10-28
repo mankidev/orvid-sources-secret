@@ -1,0 +1,20 @@
+{
+ "id": "modporn",
+ "name": "Modporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "modporn\\.com/video/[^\\s\"?#]+",
+ "icon": "modporn.png",
+ "html": {
+  "site": "https://modporn.com",
+  "search": "https://modporn.com/search/{qp}/",
+  "searchPage": "https://modporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://modporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

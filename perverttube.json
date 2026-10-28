@@ -1,0 +1,18 @@
+{
+ "id": "perverttube",
+ "name": "PervertTube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "perverttube\\.com/videos?/\\d+/",
+ "icon": "perverttube.png",
+ "html": {
+  "site": "https://www.perverttube.com",
+  "search": "https://www.perverttube.com/search/{qp}/",
+  "card": "<div class=\"item ",
+  "href": "href=\"(https://www\\.perverttube\\.com/videos?/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

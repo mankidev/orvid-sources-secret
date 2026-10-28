@@ -1,0 +1,20 @@
+{
+ "id": "pornxpert",
+ "name": "Pornxpert",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornxpert\\.com/video/[^\\s\"?#]+",
+ "icon": "pornxpert.png",
+ "html": {
+  "site": "https://pornxpert.com",
+  "search": "https://pornxpert.com/search/{qp}/",
+  "searchPage": "https://pornxpert.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.pornxpert\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

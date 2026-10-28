@@ -1,0 +1,20 @@
+{
+ "id": "xbondage",
+ "name": "XBondage",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xbondage\\.porn/videos/\\d+/",
+ "icon": "xbondage.png",
+ "html": {
+  "site": "https://xbondage.porn",
+  "search": "https://xbondage.porn/search/{qp}/",
+  "searchPage": "https://xbondage.porn/search/{qp}/?from_videos={p}",
+  "card": "itemtype=\"http://schema.org/Movie\"",
+  "href": "href=\"(https://xbondage\\.porn/videos?/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "srcset=\"(https://[^\" ]+\\.(?:webp|jpg))",
+  "paged": true,
+  "duration": "data-duration=\"([0-9:]+)\""
+ }
+}

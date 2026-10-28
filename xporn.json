@@ -1,0 +1,20 @@
+{
+ "id": "xporn",
+ "name": "Xporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xporn\\.tv/video/[^\\s\"?#]+",
+ "icon": "xporn.png",
+ "html": {
+  "site": "https://xporn.tv",
+  "search": "https://xporn.tv/search/{qp}/",
+  "searchPage": "https://xporn.tv/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item xporn-video-card  \"",
+  "href": "href=\"(https?://www\\.xporn\\.tv/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

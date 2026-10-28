@@ -1,0 +1,20 @@
+{
+ "id": "hypnosis",
+ "name": "Hypnosis",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hypnosis\\.porn/videos/[^\\s\"?#]+",
+ "icon": "hypnosis.png",
+ "html": {
+  "site": "https://hypnosis.porn",
+  "search": "https://hypnosis.porn/search/{qp}/",
+  "searchPage": "https://hypnosis.porn/search/{qp}/?from_videos={p}",
+  "card": "itemprop=\"target\"",
+  "href": "href=\"(https?://hypnosis\\.porn/videos/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "data-duration=\"([0-9:]+)\"",
+  "paged": true
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "javsiri",
+ "name": "Javsiri",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "javsiri\\.cc/video/[^\\s\"?#]+",
+ "icon": "javsiri.png",
+ "html": {
+  "site": "https://javsiri.cc",
+  "search": "https://javsiri.cc/search/{qp}/",
+  "searchPage": "https://javsiri.cc/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item  \"",
+  "href": "href=\"(https?://javsiri\\.cc/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

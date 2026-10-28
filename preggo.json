@@ -1,0 +1,20 @@
+{
+ "id": "preggo",
+ "name": "Preggo",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "preggo\\.porn/videos/[^\\s\"?#]+",
+ "icon": "preggo.png",
+ "html": {
+  "site": "https://preggo.porn",
+  "search": "https://preggo.porn/search/{qp}/",
+  "searchPage": "https://preggo.porn/search/{qp}/?from_videos={p}",
+  "card": "itemprop=\"target\"",
+  "href": "href=\"(https?://preggo\\.porn/videos/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "data-duration=\"([0-9:]+)\"",
+  "paged": true
+ }
+}
