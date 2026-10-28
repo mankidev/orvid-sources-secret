@@ -1,0 +1,19 @@
+{
+ "id": "freshporno",
+ "name": "FreshPorno",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "freshporno\\.org/videos/[^\\s\"?#]+",
+ "icon": "freshporno.png",
+ "html": {
+  "site": "https://freshporno.org",
+  "search": "https://freshporno.org/search/{qp}/",
+  "searchPage": "https://freshporno.org/search/{qp}/{p}/",
+  "card": "<div class=\"thumbs-inner\"",
+  "href": "href=\"(https?://freshporno\\.org/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

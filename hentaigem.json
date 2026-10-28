@@ -1,0 +1,20 @@
+{
+ "id": "hentaigem",
+ "name": "HentaiGem",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hentaigem\\.com/videos/[^\\s\"?#]+",
+ "icon": "hentaigem.png",
+ "html": {
+  "site": "https://hentaigem.com",
+  "search": "https://hentaigem.com/search/{qp}/",
+  "searchPage": "https://hentaigem.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.hentaigem\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

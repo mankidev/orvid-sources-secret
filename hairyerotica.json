@@ -1,0 +1,20 @@
+{
+ "id": "hairyerotica",
+ "name": "HairyErotica",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hairyerotica\\.com/videos/[^\\s\"?#]+",
+ "icon": "hairyerotica.png",
+ "html": {
+  "site": "https://hairyerotica.com",
+  "search": "https://hairyerotica.com/search/{qp}/",
+  "searchPage": "https://hairyerotica.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.hairyerotica\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

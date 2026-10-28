@@ -1,0 +1,21 @@
+{
+ "id": "blowjobs",
+ "name": "Blowjobs.pro",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "blowjobs\\.pro/videos/[^\\s\"?#]+",
+ "icon": "blowjobs.png",
+ "html": {
+  "site": "https://blowjobs.pro",
+  "search": "https://blowjobs.pro/search/{qp}/",
+  "searchPage": "https://blowjobs.pro/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://blowjobs\\.pro/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "followRedirect": true
+ }
+}

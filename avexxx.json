@@ -1,0 +1,21 @@
+{
+ "id": "avexxx",
+ "name": "AveXXX",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "avexxx\\.com/video/[^\\s\"?#]+",
+ "icon": "avexxx.png",
+ "html": {
+  "site": "https://avexxx.com",
+  "search": "https://avexxx.com/search/{qp}/",
+  "searchPage": "https://avexxx.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item  \"",
+  "href": "href=\"(https?://avexxx\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "followRedirect": true
+ }
+}

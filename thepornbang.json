@@ -1,0 +1,20 @@
+{
+ "id": "thepornbang",
+ "name": "ThePornBang",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "thepornbang\\.com/video/[^\\s\"?#]+",
+ "icon": "thepornbang.png",
+ "html": {
+  "site": "https://thepornbang.com",
+  "search": "https://thepornbang.com/search/{qp}/",
+  "searchPage": "https://thepornbang.com/search/{qp}/{p}/",
+  "card": "<a  class=\"thumb \"",
+  "href": "href=\"(https?://www\\.thepornbang\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "thumb": "data-original=\"(/images/thumb/[^\"]+)\""
+ }
+}

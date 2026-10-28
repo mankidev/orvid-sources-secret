@@ -1,0 +1,19 @@
+{
+ "id": "porndos",
+ "name": "PornDos",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porndos\\.com/video/[^\\s\"?#]+",
+ "icon": "porndos.png",
+ "html": {
+  "site": "https://porndos.com",
+  "search": "https://porndos.com/search/{qp}/",
+  "searchPage": "https://porndos.com/search/{qp}/{p}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.porndos\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "paged": true,
+  "thumb": "data-src=\"(/images/thumb/[^\"]+)\""
+ }
+}

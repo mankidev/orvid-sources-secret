@@ -1,0 +1,20 @@
+{
+ "id": "juicexxx",
+ "name": "JuiceXXX",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "juicexxx\\.com/video/[^\\s\"?#]+",
+ "icon": "juicexxx.png",
+ "html": {
+  "site": "https://juicexxx.com",
+  "search": "https://juicexxx.com/search/{qp}/",
+  "searchPage": "https://juicexxx.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item  \"",
+  "href": "href=\"(https?://juicexxx\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

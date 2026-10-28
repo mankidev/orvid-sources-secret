@@ -1,0 +1,20 @@
+{
+ "id": "porndd",
+ "name": "PornDD",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porndd\\.com/video/[^\\s\"?#]+",
+ "icon": "porndd.png",
+ "html": {
+  "site": "https://porndd.com",
+  "search": "https://porndd.com/search/{qp}/",
+  "searchPage": "https://porndd.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://porndd\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}
