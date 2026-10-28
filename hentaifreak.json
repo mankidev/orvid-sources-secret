@@ -1,0 +1,10 @@
+{
+ "id": "hentaifreak",
+ "name": "Hentai Freak",
+ "version": 1,
+ "adult": true,
+ "weight": 0.6,
+ "match": "hentaifreak\\.org/(?!page/|tags/|category/)[a-z0-9-]+/",
+ "icon": "hentaifreak.png",
+ "script": "hentaifreak.js"
+}

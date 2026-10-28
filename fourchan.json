@@ -1,0 +1,11 @@
+{
+ "id": "fourchan18",
+ "name": "4chan 18+",
+ "rank": 50,
+ "version": 1,
+ "adult": true,
+ "weight": 0.4,
+ "match": "i\\.4cdn\\.org/(?:h|aco|gif)/(\\d+)\\.(?:webm|mp4)",
+ "icon": "fourchan.png",
+ "script": "fourchan.js"
+}

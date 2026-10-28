@@ -1,0 +1,10 @@
+{
+ "id": "hentaimama",
+ "name": "Hentaimama",
+ "version": 1,
+ "adult": true,
+ "weight": 0.6,
+ "match": "hentaimama\\.io/(?:tvshows|episodes)/[a-z0-9-]+/?",
+ "icon": "hentaimama.png",
+ "script": "hentaimama.js"
+}

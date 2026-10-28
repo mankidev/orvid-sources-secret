@@ -1,0 +1,10 @@
+{
+ "id": "hstream",
+ "name": "hstream",
+ "version": 1,
+ "adult": true,
+ "weight": 0.6,
+ "match": "hstream\\.moe/hentai/[a-z0-9-]+",
+ "icon": "hstream.png",
+ "script": "hstream.js"
+}

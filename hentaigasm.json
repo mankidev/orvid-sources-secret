@@ -1,0 +1,10 @@
+{
+ "id": "hentaigasm",
+ "name": "Hentaigasm",
+ "version": 1,
+ "adult": true,
+ "weight": 0.6,
+ "match": "hentaigasm\\.com/(?!page/|tag/|category/)[a-z0-9-]+/",
+ "icon": "hentaigasm.png",
+ "script": "hentaigasm.js"
+}
