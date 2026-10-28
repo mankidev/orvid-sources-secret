@@ -1,0 +1,19 @@
+{
+ "id": "bigbigtits",
+ "name": "Bigbigtits",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bigbigtits\\.com/video/[^\\s\"?#]+",
+ "icon": "bigbigtits.png",
+ "html": {
+  "site": "https://bigbigtits.com",
+  "search": "https://bigbigtits.com/search/{qp}/",
+  "searchPage": "https://bigbigtits.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-tool\"",
+  "href": "href=\"(https?://bigbigtits\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "id": "danude",
+ "name": "Danude",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "danude\\.com/videos/[^\\s\"?#]+",
+ "icon": "danude.png",
+ "html": {
+  "site": "https://danude.com",
+  "search": "https://danude.com/search/{qp}/",
+  "card": "<a class=\"dn-card-link\"",
+  "href": "href=\"(https?://www\\.danude\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}
