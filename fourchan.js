@@ -1,5 +1,5 @@
 var BOARDS = ["h", "aco", "gif"];
-var MAX_THREADS = 12;
+var MAX_THREADS = 5;
 var PER_PAGE = 40;
 var VIDEO = /\b(animat\w*|webms?|gifs?|mp4s?|mmd|sfm|hmvs?)\b/i;
 var DRAWN = /\b(animat\w*|mmd|sfm|3d|2d|hentai|anime|cartoons?)\b/i;
@@ -9,9 +9,22 @@ function text(html) {
   return util.unescape(String(html || "").replace(/<br\s*\/?>/g, " ").replace(/<[^>]+>/g, " ")).replace(/>>\d+/g, " ").replace(/\s+/g, " ").trim();
 }
 
-function threads() {
-  var out = [];
-  var bodies = http.all(BOARDS.map(function (b) { return "https://a.4cdn.org/" + b + "/catalog.json"; }));
+function catalogs() {
+  var bodies = BOARDS.map(function (b) { return cache.get("catalog" + b, true); });
+  var missing = [];
+  BOARDS.forEach(function (b, i) { if (!bodies[i]) missing.push(i); });
+  if (missing.length) {
+    var got = http.all(missing.map(function (i) { return "https://a.4cdn.org/" + BOARDS[i] + "/catalog.json"; }));
+    missing.forEach(function (i, k) {
+      bodies[i] = got[k];
+      if (got[k]) cache.put("catalog" + BOARDS[i], got[k], 300000, true);
+    });
+  }
+  return bodies;
+}
+
+function threads(re, need) {
+  var named = [], rest = [], bodies = catalogs();
   BOARDS.forEach(function (b, i) {
     var pages;
     try { pages = JSON.parse(bodies[i]); } catch (e) { return; }
@@ -20,12 +33,15 @@ function threads() {
         if (t.sticky) return;
         var sub = text(t.sub), all = sub + " " + text(t.com);
         if (BLOCK.test(all) || !(b == "gif" ? DRAWN : VIDEO).test(all)) return;
-        out.push({ board: b, no: t.no, sub: sub || text(t.com).substring(0, 60), files: t.images || 0 });
+        var item = { board: b, no: t.no, sub: sub || text(t.com).substring(0, 60), files: t.images || 0, clips: VIDEO.test(sub) ? 1 : 0 };
+        (hits(re, all.toLowerCase()) >= need ? named : rest).push(item);
       });
     });
   });
-  out.sort(function (a, b) { return b.files - a.files; });
-  return out.slice(0, MAX_THREADS);
+  var order = function (a, b) { return b.clips - a.clips || b.files - a.files; };
+  named.sort(order);
+  rest.sort(order);
+  return (named.length ? named : rest).slice(0, MAX_THREADS);
 }
 
 function words(query) {
@@ -51,7 +67,7 @@ function search(query, next) {
   var re = words(query);
   if (!re.length) return { items: [], next: null };
   var need = Math.ceil(re.length / 2);
-  var list = threads();
+  var list = threads(re, need);
   var bodies = list.map(function (t) { return cache.get(t.board + t.no, true); });
   var missing = [];
   list.forEach(function (t, i) { if (!bodies[i]) missing.push(i); });
