@@ -1,0 +1,17 @@
+{
+ "id": "prostoporno",
+ "name": "Prostoporno",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "prostoporno\\.dev/videos/[^\\s\"?#]+",
+ "icon": "prostoporno.png",
+ "html": {
+  "site": "https://prostoporno.dev",
+  "search": "https://prostoporno.dev/search/{qp}/",
+  "card": "<div class=\"thumb\"",
+  "href": "href=\"(https?://prostoporno\\.dev/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

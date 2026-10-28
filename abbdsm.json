@@ -1,0 +1,10 @@
+{
+ "id": "abbdsm",
+ "name": "Abbdsm",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?abbdsm\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "abbdsm.png",
+ "script": "abbdsm.js"
+}

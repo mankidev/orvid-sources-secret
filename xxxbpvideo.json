@@ -1,0 +1,18 @@
+{
+ "id": "xxxbpvideo",
+ "name": "Xxxbpvideo",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xxxbpvideo\\.com/video/[^\\s\"?#]+",
+ "icon": "xxxbpvideo.png",
+ "html": {
+  "site": "https://www.xxxbpvideo.com",
+  "search": "https://www.xxxbpvideo.com/search/{qp}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.xxxbpvideo\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

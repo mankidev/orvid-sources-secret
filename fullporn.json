@@ -1,0 +1,19 @@
+{
+ "id": "fullporn",
+ "name": "Fullporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "fullporn\\.to/videos/[^\\s\"?#]+",
+ "icon": "fullporn.png",
+ "html": {
+  "site": "https://fullporn.to",
+  "search": "https://fullporn.to/search/{qp}/",
+  "searchPage": "https://fullporn.to/search/{qp}/{p}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.fullporn\\.to/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

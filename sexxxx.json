@@ -1,0 +1,18 @@
+{
+ "id": "sexxxx",
+ "name": "Sexxxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexxxx\\.video/video/[^\\s\"?#]+",
+ "icon": "sexxxx.png",
+ "html": {
+  "site": "https://sexxxx.video",
+  "search": "https://sexxxx.video/search/{qp}/",
+  "card": "<article class=\"thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://sexxxx.video"
+ }
+}

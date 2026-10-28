@@ -1,0 +1,20 @@
+{
+ "id": "xvideo999",
+ "name": "Xvideo999",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xvideo999\\.com/video/[^\\s\"?#]+",
+ "icon": "xvideo999.png",
+ "html": {
+  "site": "https://xvideo999.com",
+  "search": "https://xvideo999.com/search/{qp}",
+  "searchPage": "https://xvideo999.com/search/{qp}?page={p}",
+  "card": "<li class=\"item\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true,
+  "linkPrefix": "https://xvideo999.com"
+ }
+}

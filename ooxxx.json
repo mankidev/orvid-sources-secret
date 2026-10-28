@@ -1,0 +1,10 @@
+{
+ "id": "ooxxx",
+ "name": "Ooxxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?ooxxx\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "ooxxx.png",
+ "script": "ooxxx.js"
+}

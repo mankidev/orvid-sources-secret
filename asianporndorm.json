@@ -1,0 +1,18 @@
+{
+ "id": "asianporndorm",
+ "name": "Asianporndorm",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "asianporndorm\\.com/video/[^\\s\"?#]+",
+ "icon": "asianporndorm.png",
+ "html": {
+  "site": "https://asianporndorm.com",
+  "search": "https://asianporndorm.com/search/{qp}",
+  "card": "<li class=\"item\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://asianporndorm.com"
+ }
+}

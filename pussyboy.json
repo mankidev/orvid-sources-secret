@@ -1,0 +1,17 @@
+{
+ "id": "pussyboy",
+ "name": "Pussyboy",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pussyboy\\.net/video/[^\\s\"?#]+",
+ "icon": "pussyboy.png",
+ "html": {
+  "site": "https://www.pussyboy.net",
+  "search": "https://www.pussyboy.net/search/{qp}/",
+  "card": "<div class=\"col-md-12 videos-list\"",
+  "href": "href=\"(https?://www\\.pussyboy\\.net/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

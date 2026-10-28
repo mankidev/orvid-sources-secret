@@ -1,0 +1,19 @@
+{
+ "id": "sexsq",
+ "name": "Sexsq",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexsq\\.com/videos/[^\\s\"?#]+",
+ "icon": "sexsq.png",
+ "html": {
+  "site": "https://sexsq.com",
+  "search": "https://sexsq.com/search/{qp}/",
+  "searchPage": "https://sexsq.com/search/{qp}/{p}/",
+  "card": "<div class=\"thumb\"",
+  "href": "href=\"(https?://www\\.sexsq\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "paged": true,
+  "thumb": "data-src=\"(//static\\.sexsq\\.com/[^\"]+\\.jpg)\""
+ }
+}

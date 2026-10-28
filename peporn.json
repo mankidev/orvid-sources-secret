@@ -1,0 +1,10 @@
+{
+ "id": "peporn",
+ "name": "Peporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?peporn\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "peporn.png",
+ "script": "peporn.js"
+}

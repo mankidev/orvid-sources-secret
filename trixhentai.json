@@ -1,0 +1,17 @@
+{
+ "id": "trixhentai",
+ "name": "Trixhentai",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "trixhentai\\.com/video/[^\\s\"?#]+",
+ "icon": "trixhentai.png",
+ "html": {
+  "site": "https://trixhentai.com",
+  "search": "https://trixhentai.com/search/{qp}/",
+  "card": "<div class=\"item-img\"",
+  "href": "href=\"(https?://www\\.trixhentai\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

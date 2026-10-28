@@ -1,0 +1,18 @@
+{
+ "id": "sexnxx",
+ "name": "Sexnxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexnxx\\.video/video/[^\\s\"?#]+",
+ "icon": "sexnxx.png",
+ "html": {
+  "site": "https://sexnxx.video",
+  "search": "https://sexnxx.video/search/{qp}/",
+  "card": "<article class=\"thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://sexnxx.video"
+ }
+}

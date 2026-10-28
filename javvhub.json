@@ -1,0 +1,18 @@
+{
+ "id": "javvhub",
+ "name": "Javvhub",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "javvhub\\.com/video/[^\\s\"?#]+",
+ "icon": "javvhub.png",
+ "html": {
+  "site": "https://javvhub.com",
+  "search": "https://javvhub.com/s/{qp}/",
+  "card": "<div class=\"thumb\"",
+  "href": "href=\"(https?://www\\.javvhub\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

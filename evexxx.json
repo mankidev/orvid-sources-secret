@@ -1,0 +1,20 @@
+{
+ "id": "evexxx",
+ "name": "Evexxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "evexxx\\.com/video/[^\\s\"?#]+",
+ "icon": "evexxx.png",
+ "html": {
+  "site": "https://evexxx.com",
+  "search": "https://evexxx.com/search/{qp}",
+  "searchPage": "https://evexxx.com/search/{qp}?page={p}",
+  "card": "<li class=\"item\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true,
+  "linkPrefix": "https://evexxx.com"
+ }
+}

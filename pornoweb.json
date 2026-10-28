@@ -1,0 +1,18 @@
+{
+ "id": "pornoweb",
+ "name": "Pornoweb",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornoweb\\.hu/video/[^\\s\"?#]+",
+ "icon": "pornoweb.png",
+ "html": {
+  "site": "https://pornoweb.hu",
+  "search": "https://pornoweb.hu/?s={qp}",
+  "card": "<div class=\"video-title\"",
+  "href": "href=\"(https?://pornoweb\\.hu/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "thumb": "src=\"(/media/videos/tmb/[^\"]+)\""
+ }
+}

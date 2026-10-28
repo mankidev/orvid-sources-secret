@@ -1,0 +1,10 @@
+{
+ "id": "uanal",
+ "name": "Uanal",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?uanal\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "uanal.png",
+ "script": "uanal.js"
+}

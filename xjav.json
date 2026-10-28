@@ -1,0 +1,10 @@
+{
+ "id": "xjav",
+ "name": "Xjav",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?xjav\\.tube/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "xjav.png",
+ "script": "xjav.js"
+}

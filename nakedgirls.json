@@ -1,0 +1,17 @@
+{
+ "id": "nakedgirls",
+ "name": "Nakedgirls",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "nakedgirls\\.mobi/videos/[^\\s\"?#]+",
+ "icon": "nakedgirls.png",
+ "html": {
+  "site": "https://nakedgirls.mobi",
+  "search": "https://nakedgirls.mobi/search/{qp}/",
+  "card": "<div class=\"item th item-thumb \"",
+  "href": "href=\"(https?://www\\.nakedgirls\\.mobi/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

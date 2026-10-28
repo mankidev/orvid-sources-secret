@@ -1,0 +1,17 @@
+{
+ "id": "pornhindisex",
+ "name": "Pornhindisex",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornhindisex\\.com/video/[^\\s\"?#]+",
+ "icon": "pornhindisex.png",
+ "html": {
+  "site": "https://www.pornhindisex.com",
+  "search": "https://www.pornhindisex.com/search/{qp}/",
+  "card": "<div class=\"col-md-12 videos-list\"",
+  "href": "href=\"(https?://www\\.pornhindisex\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

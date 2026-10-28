@@ -1,0 +1,17 @@
+{
+ "id": "sexybluefilm",
+ "name": "Sexybluefilm",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexybluefilm\\.com/video/[^\\s\"?#]+",
+ "icon": "sexybluefilm.png",
+ "html": {
+  "site": "https://www.sexybluefilm.com",
+  "search": "https://www.sexybluefilm.com/search/{qp}/",
+  "card": "<div class=\"col-md-12 videos-list\"",
+  "href": "href=\"(https?://www\\.sexybluefilm\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

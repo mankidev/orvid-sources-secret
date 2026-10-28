@@ -1,0 +1,10 @@
+{
+ "id": "fujav",
+ "name": "Fujav",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?fujav\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "fujav.png",
+ "script": "fujav.js"
+}

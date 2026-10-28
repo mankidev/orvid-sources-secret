@@ -1,0 +1,19 @@
+{
+ "id": "fulleroticmovies",
+ "name": "Fulleroticmovies",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "fulleroticmovies\\.net/video/[^\\s\"?#]+",
+ "icon": "fulleroticmovies.png",
+ "html": {
+  "site": "https://www.fulleroticmovies.net",
+  "search": "https://www.fulleroticmovies.net/search/{qp}/",
+  "searchPage": "https://www.fulleroticmovies.net/search/{qp}/{p}/",
+  "card": "<a class=\"item-video pom_pucl\"",
+  "href": "href=\"(https?://www\\.fulleroticmovies\\.net/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "paged": true,
+  "thumb": "src=\"(/images/thumb/[^\"]+)\""
+ }
+}

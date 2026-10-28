@@ -1,0 +1,18 @@
+{
+ "id": "pornsearchtube",
+ "name": "Pornsearchtube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornsearchtube\\.com/videos/[^\\s\"?#]+",
+ "icon": "pornsearchtube.png",
+ "html": {
+  "site": "https://pornsearchtube.com",
+  "search": "https://pornsearchtube.com/search/{qp}/",
+  "card": "<div class=\"pst-card-meta\"",
+  "href": "href=\"(https?://pornsearchtube\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

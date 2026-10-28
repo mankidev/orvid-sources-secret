@@ -1,0 +1,20 @@
+{
+ "id": "pornplan",
+ "name": "Pornplan",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornplan\\.com/video/[^\\s\"?#]+",
+ "icon": "pornplan.png",
+ "html": {
+  "site": "https://pornplan.com",
+  "search": "https://pornplan.com/search/?q={qp}",
+  "searchPage": "https://pornplan.com/search/?q={qp}&page={p}",
+  "card": "<div class=\"th\"",
+  "href": "href=\"(https?://www\\.pornplan\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "thumb": "data-src=\"(/images/thumb/[^\"]+)\""
+ }
+}

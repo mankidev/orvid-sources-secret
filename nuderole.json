@@ -1,0 +1,18 @@
+{
+ "id": "nuderole",
+ "name": "Nuderole",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "nuderole\\.com/video/[^\\s\"?#]+",
+ "icon": "nuderole.png",
+ "html": {
+  "site": "https://nuderole.com",
+  "search": "https://nuderole.com/search/{qp}/",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://nuderole\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

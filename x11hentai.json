@@ -1,0 +1,10 @@
+{
+ "id": "x11hentai",
+ "name": "11hentai",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?11hentai\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "x11hentai.png",
+ "script": "x11hentai.js"
+}

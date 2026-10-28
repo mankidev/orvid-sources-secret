@@ -1,0 +1,10 @@
+{
+ "id": "robbyporn",
+ "name": "Robbyporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?robbyporn\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "robbyporn.png",
+ "script": "robbyporn.js"
+}

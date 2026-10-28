@@ -1,0 +1,18 @@
+{
+ "id": "matureclub",
+ "name": "Matureclub",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "matureclub\\.com/video/[^\\s\"?#]+",
+ "icon": "matureclub.png",
+ "html": {
+  "site": "https://matureclub.com",
+  "search": "https://matureclub.com/search/{qp}/",
+  "card": "<div class=\"video-item\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "linkPrefix": "https://matureclub.com",
+  "thumb": "<img src=\"(https://[^\"]+\\.jpe?g)\""
+ }
+}

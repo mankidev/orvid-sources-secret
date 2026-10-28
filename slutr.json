@@ -1,0 +1,19 @@
+{
+ "id": "slutr",
+ "name": "Slutr",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "slutr\\.com/video/[^\\s\"?#]+",
+ "icon": "slutr.png",
+ "html": {
+  "site": "https://slutr.com",
+  "search": "https://slutr.com/search/{qp}/",
+  "searchPage": "https://slutr.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-tool\"",
+  "href": "href=\"(https?://slutr\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

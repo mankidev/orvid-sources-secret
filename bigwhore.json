@@ -1,0 +1,18 @@
+{
+ "id": "bigwhore",
+ "name": "Bigwhore",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bigwhore\\.com/video/[^\\s\"?#]+",
+ "icon": "bigwhore.png",
+ "html": {
+  "site": "https://bigwhore.com",
+  "search": "https://bigwhore.com/search/{qp}/",
+  "card": "<a\n                  class=\"insight-bobcat-loyalty\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://bigwhore.com"
+ }
+}

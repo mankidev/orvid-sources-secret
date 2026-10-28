@@ -1,0 +1,21 @@
+{
+ "id": "exeporn",
+ "name": "Exeporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "exeporn\\.net/video/[^\\s\"?#]+",
+ "icon": "exeporn.png",
+ "html": {
+  "site": "https://exeporn.net",
+  "search": "https://exeporn.net/search/?q={qp}",
+  "searchPage": "https://exeporn.net/search/?q={qp}&page={p}",
+  "card": "<div class=\"card__info card__info_rate positive\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "linkPrefix": "https://exeporn.net",
+  "thumb": "data-srcset=\"(/images/thumb/[^\"]+)\""
+ }
+}

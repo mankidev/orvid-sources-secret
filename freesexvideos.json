@@ -1,0 +1,17 @@
+{
+ "id": "freesexvideos",
+ "name": "Freesexvideos",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "freesexvideos\\.xxx/videos/[^\\s\"?#]+",
+ "icon": "freesexvideos.png",
+ "html": {
+  "site": "https://freesexvideos.xxx",
+  "search": "https://freesexvideos.xxx/search/{qp}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.freesexvideos\\.xxx/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}
