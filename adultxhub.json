@@ -1,0 +1,20 @@
+{
+ "id": "adultxhub",
+ "name": "Adultxhub",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "adultxhub\\.com/video/[^\\s\"?#]+",
+ "icon": "adultxhub.png",
+ "html": {
+  "site": "https://adultxhub.com",
+  "search": "https://adultxhub.com/search/{qp}/",
+  "searchPage": "https://adultxhub.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://adultxhub\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

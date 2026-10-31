@@ -1,0 +1,19 @@
+{
+ "id": "analry",
+ "name": "Analry",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "analry\\.com/video/[^\\s\"?#]+",
+ "icon": "analry.png",
+ "html": {
+  "site": "https://analry.com",
+  "search": "https://analry.com/search/{qp}/",
+  "searchPage": "https://analry.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-tool\"",
+  "href": "href=\"(https?://analry\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

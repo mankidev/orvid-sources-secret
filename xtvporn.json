@@ -1,0 +1,20 @@
+{
+ "id": "xtvporn",
+ "name": "Xtvporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xtvporn\\.com/video/[^\\s\"?#]+",
+ "icon": "xtvporn.png",
+ "html": {
+  "site": "https://xtvporn.com",
+  "search": "https://xtvporn.com/search/{qp}/",
+  "searchPage": "https://xtvporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item  \"",
+  "href": "href=\"(https?://www\\.xtvporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

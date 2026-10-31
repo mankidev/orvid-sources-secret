@@ -1,0 +1,20 @@
+{
+ "id": "moviessexscenes",
+ "name": "Moviessexscenes",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "moviessexscenes\\.com/video/[^\\s\"?#]+",
+ "icon": "moviessexscenes.png",
+ "html": {
+  "site": "https://moviessexscenes.com",
+  "search": "https://moviessexscenes.com/search/{qp}/",
+  "searchPage": "https://moviessexscenes.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://moviessexscenes\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "id": "bisonporn",
+ "name": "Bisonporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bisonporn\\.com/video/[^\\s\"?#]+",
+ "icon": "bisonporn.png",
+ "html": {
+  "site": "https://bisonporn.com",
+  "search": "https://bisonporn.com/search/{qp}/",
+  "card": "<article class=\"thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://bisonporn.com"
+ }
+}

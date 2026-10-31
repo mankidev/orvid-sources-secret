@@ -1,0 +1,20 @@
+{
+ "id": "ductporn",
+ "name": "Ductporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "ductporn\\.com/video/[^\\s\"?#]+",
+ "icon": "ductporn.png",
+ "html": {
+  "site": "https://ductporn.com",
+  "search": "https://ductporn.com/search/{qp}/",
+  "searchPage": "https://ductporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.ductporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

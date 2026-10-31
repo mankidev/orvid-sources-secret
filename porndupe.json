@@ -1,0 +1,20 @@
+{
+ "id": "porndupe",
+ "name": "Porndupe",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porndupe\\.com/video/[^\\s\"?#]+",
+ "icon": "porndupe.png",
+ "html": {
+  "site": "https://porndupe.com",
+  "search": "https://porndupe.com/search/?q={qp}",
+  "searchPage": "https://porndupe.com/search/?q={qp}&page={p}",
+  "card": "<a class=\"media-card loader-disabled\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "paged": true,
+  "linkPrefix": "https://porndupe.com",
+  "thumb": "data-original=\"((?:https?:)?/[^\"\\s]+\\.(?:jpe?g|webp|png)[^\"\\s]*)\""
+ }
+}

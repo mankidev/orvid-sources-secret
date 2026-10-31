@@ -1,0 +1,19 @@
+{
+ "id": "pornfant",
+ "name": "Pornfant",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornfant\\.com/video/[^\\s\"?#]+",
+ "icon": "pornfant.png",
+ "html": {
+  "site": "https://pornfant.com",
+  "search": "https://pornfant.com/search/{qp}/",
+  "searchPage": "https://pornfant.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-tool\"",
+  "href": "href=\"(https?://pornfant\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

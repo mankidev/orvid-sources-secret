@@ -1,0 +1,20 @@
+{
+ "id": "xnxxporns",
+ "name": "Xnxxporns",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xnxxporns\\.com/video/[^\\s\"?#]+",
+ "icon": "xnxxporns.png",
+ "html": {
+  "site": "https://xnxxporns.com",
+  "search": "https://xnxxporns.com/search/{qp}/",
+  "searchPage": "https://xnxxporns.com/search/{qp}/page{p}.html",
+  "card": "<article class=\"item-col col -video\"",
+  "href": "href=\"(https?://xnxxporns\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

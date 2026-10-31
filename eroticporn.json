@@ -1,0 +1,20 @@
+{
+ "id": "eroticporn",
+ "name": "Eroticporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "eroticporn\\.net/videos/[^\\s\"?#]+",
+ "icon": "eroticporn.png",
+ "html": {
+  "site": "https://eroticporn.net",
+  "search": "https://eroticporn.net/search/{qp}/",
+  "searchPage": "https://eroticporn.net/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://eroticporn\\.net/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

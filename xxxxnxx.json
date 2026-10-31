@@ -1,0 +1,20 @@
+{
+ "id": "xxxxnxx",
+ "name": "Xxx-xnxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xxx\\-xnxx\\.pro/video/[^\\s\"?#]+",
+ "icon": "xxxxnxx.png",
+ "html": {
+  "site": "https://xxx-xnxx.pro",
+  "search": "https://xxx-xnxx.pro/search/{qp}/",
+  "searchPage": "https://xxx-xnxx.pro/search/{qp}/{p}/",
+  "card": "<a class=\"thumb-image\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true,
+  "linkPrefix": "https://xxx-xnxx.pro"
+ }
+}

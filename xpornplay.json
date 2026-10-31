@@ -1,0 +1,19 @@
+{
+ "id": "xpornplay",
+ "name": "Xpornplay",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xpornplay\\.tv/videos/[^\\s\"?#]+",
+ "icon": "xpornplay.png",
+ "html": {
+  "site": "https://xpornplay.tv",
+  "search": "https://xpornplay.tv/search/{qp}/",
+  "card": "<div class=\"yt-video-card-content\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "linkPrefix": "https://xpornplay.tv"
+ }
+}

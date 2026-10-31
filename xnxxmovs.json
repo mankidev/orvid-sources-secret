@@ -1,0 +1,18 @@
+{
+ "id": "xnxxmovs",
+ "name": "Xnxxmovs",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xnxxmovs\\.com/video/[^\\s\"?#]+",
+ "icon": "xnxxmovs.png",
+ "html": {
+  "site": "https://xnxxmovs.com",
+  "search": "https://xnxxmovs.com/search/{qp}/",
+  "card": "<article class=\"thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://xnxxmovs.com"
+ }
+}

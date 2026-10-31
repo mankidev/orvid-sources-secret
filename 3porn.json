@@ -1,0 +1,19 @@
+{
+ "id": "3porn",
+ "name": "3porn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "3porn\\.gg/videos/[^\\s\"?#]+",
+ "icon": "3porn.png",
+ "html": {
+  "site": "https://3porn.gg",
+  "search": "https://3porn.gg/search/{qp}/",
+  "searchPage": "https://3porn.gg/search/{qp}/{p}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.3porn\\.gg/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

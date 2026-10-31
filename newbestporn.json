@@ -1,0 +1,20 @@
+{
+ "id": "newbestporn",
+ "name": "Newbestporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "newbestporn\\.com/video/[^\\s\"?#]+",
+ "icon": "newbestporn.png",
+ "html": {
+  "site": "https://newbestporn.com",
+  "search": "https://newbestporn.com/search/{qp}/",
+  "searchPage": "https://newbestporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item  \"",
+  "href": "href=\"(https?://newbestporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

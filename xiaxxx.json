@@ -1,0 +1,18 @@
+{
+ "id": "xiaxxx",
+ "name": "Xiaxxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xiaxxx\\.com/video/[^\\s\"?#]+",
+ "html": {
+  "site": "https://xiaxxx.com",
+  "search": "https://xiaxxx.com/search/{qp}/",
+  "card": "<li class=\"grid__item grid__item--16-9 grid__item--video-thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "linkPrefix": "https://xiaxxx.com"
+ }
+}

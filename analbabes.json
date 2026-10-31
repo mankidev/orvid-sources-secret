@@ -1,0 +1,17 @@
+{
+ "id": "analbabes",
+ "name": "Analbabes",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "analbabes\\.porn/video/[^\\s\"?#]+",
+ "icon": "analbabes.png",
+ "html": {
+  "site": "https://analbabes.porn",
+  "search": "https://analbabes.porn/search/{qp}/",
+  "card": "<div class=\"item-img\"",
+  "href": "href=\"(https?://analbabes\\.porn/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

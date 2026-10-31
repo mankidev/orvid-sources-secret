@@ -1,0 +1,19 @@
+{
+ "id": "maturexy",
+ "name": "Maturexy",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "maturexy\\.com/video/[^\\s\"?#]+",
+ "icon": "maturexy.png",
+ "html": {
+  "site": "https://maturexy.com",
+  "search": "https://maturexy.com/search/{qp}/",
+  "searchPage": "https://maturexy.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-tool\"",
+  "href": "href=\"(https?://maturexy\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

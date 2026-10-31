@@ -1,0 +1,20 @@
+{
+ "id": "legalanalporn",
+ "name": "Legalanalporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "legalanalporn\\.com/videos/[^\\s\"?#]+",
+ "icon": "legalanalporn.png",
+ "html": {
+  "site": "https://legalanalporn.com",
+  "search": "https://legalanalporn.com/search/{qp}/",
+  "searchPage": "https://legalanalporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://legalanalporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

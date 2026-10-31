@@ -1,0 +1,19 @@
+{
+ "id": "33porn",
+ "name": "33porn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "33porn\\.net/videos/[^\\s\"?#]+",
+ "icon": "33porn.png",
+ "html": {
+  "site": "https://33porn.net",
+  "search": "https://33porn.net/search/{qp}/",
+  "searchPage": "https://33porn.net/search/{qp}/{p}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.33porn\\.net/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

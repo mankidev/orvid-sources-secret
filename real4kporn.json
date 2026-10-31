@@ -1,0 +1,20 @@
+{
+ "id": "real4kporn",
+ "name": "Real4kporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "real4kporn\\.com/video/[^\\s\"?#]+",
+ "icon": "real4kporn.png",
+ "html": {
+  "site": "https://real4kporn.com",
+  "search": "https://real4kporn.com/search/{qp}/",
+  "searchPage": "https://real4kporn.com/search/{qp}/{p}/",
+  "card": "<a  class=\"thumb \"",
+  "href": "href=\"(https?://www\\.real4kporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "thumb": "data-original=\"((?:https?:)?/[^\"\\s]+\\.(?:jpe?g|webp|png)[^\"\\s]*)\""
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "id": "taboostepsister",
+ "name": "Taboostepsister",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "taboostepsister\\.com/videos/[^\\s\"?#]+",
+ "icon": "taboostepsister.png",
+ "html": {
+  "site": "https://taboostepsister.com",
+  "search": "https://taboostepsister.com/search/{qp}/",
+  "card": "<div class=\"tss-card-meta\"",
+  "href": "href=\"(https?://taboostepsister\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

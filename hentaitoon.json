@@ -1,0 +1,19 @@
+{
+ "id": "hentaitoon",
+ "name": "Hentaitoon",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hentaitoon\\.tv/videos/[^\\s\"?#]+",
+ "icon": "hentaitoon.png",
+ "html": {
+  "site": "https://hentaitoon.tv",
+  "search": "https://hentaitoon.tv/search/{qp}/",
+  "card": "<div class=\"flex justify-between items-center\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "linkPrefix": "https://hentaitoon.tv"
+ }
+}

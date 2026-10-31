@@ -1,0 +1,20 @@
+{
+ "id": "thematureporn",
+ "name": "Thematureporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "thematureporn\\.net/videos/[^\\s\"?#]+",
+ "icon": "thematureporn.png",
+ "html": {
+  "site": "https://thematureporn.net",
+  "search": "https://thematureporn.net/search/{qp}/",
+  "searchPage": "https://thematureporn.net/search/{qp}/{p}/",
+  "card": "<div class=\"thumb thumb_rel item  \"",
+  "href": "href=\"(https?://thematureporn\\.net/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

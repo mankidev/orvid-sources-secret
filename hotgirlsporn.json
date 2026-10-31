@@ -1,0 +1,18 @@
+{
+ "id": "hotgirlsporn",
+ "name": "Hot-girls-porn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hot\\-girls\\-porn\\.com/video/[^\\s\"?#]+",
+ "icon": "hotgirlsporn.png",
+ "html": {
+  "site": "https://hot-girls-porn.com",
+  "search": "https://hot-girls-porn.com/search/{qp}/",
+  "card": "<a\n                  class=\"indebted-writhe-baloney\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://hot-girls-porn.com"
+ }
+}

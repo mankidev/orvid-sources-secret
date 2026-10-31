@@ -1,0 +1,19 @@
+{
+ "id": "pornblade",
+ "name": "Pornblade",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornblade\\.com/videos/[^\\s\"?#]+",
+ "icon": "pornblade.png",
+ "html": {
+  "site": "https://www.pornblade.com",
+  "search": "https://www.pornblade.com/search?k={qp}",
+  "card": "<div class=\"thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "linkPrefix": "https://www.pornblade.com"
+ }
+}

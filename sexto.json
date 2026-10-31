@@ -1,0 +1,18 @@
+{
+ "id": "sexto",
+ "name": "Sexto",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexto\\.mobi/video/[^\\s\"?#]+",
+ "icon": "sexto.png",
+ "html": {
+  "site": "https://sexto.mobi",
+  "search": "https://sexto.mobi/search/{qp}/",
+  "card": "<div class=\"left\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://sexto.mobi"
+ }
+}

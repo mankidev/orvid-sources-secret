@@ -1,0 +1,19 @@
+{
+ "id": "porndreamz",
+ "name": "Porndreamz",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porndreamz\\.com/video/[^\\s\"?#]+",
+ "icon": "porndreamz.png",
+ "html": {
+  "site": "https://porndreamz.com",
+  "search": "https://porndreamz.com/search/{qp}/",
+  "searchPage": "https://porndreamz.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-tool\"",
+  "href": "href=\"(https?://porndreamz\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

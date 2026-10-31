@@ -1,0 +1,19 @@
+{
+ "id": "hihentaiporn",
+ "name": "Hihentaiporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hihentaiporn\\.com/video/[^\\s\"?#]+",
+ "icon": "hihentaiporn.png",
+ "html": {
+  "site": "https://hihentaiporn.com",
+  "search": "https://hihentaiporn.com/search/{qp}/",
+  "searchPage": "https://hihentaiporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://hihentaiporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

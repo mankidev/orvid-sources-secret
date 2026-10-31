@@ -1,0 +1,19 @@
+{
+ "id": "porncharlie",
+ "name": "Porncharlie",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porncharlie\\.com/videos/[^\\s\"?#]+",
+ "icon": "porncharlie.png",
+ "html": {
+  "site": "https://porncharlie.com",
+  "search": "https://porncharlie.com/search/?q={qp}",
+  "card": "<div class=\"thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "linkPrefix": "https://porncharlie.com",
+  "thumb": "src=\"((?:https?:)?/[^\"\\s]+\\.(?:jpe?g|webp|png)[^\"\\s]*)\""
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "id": "sexlist",
+ "name": "Sexlist",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexlist\\.tv/videos/[^\\s\"?#]+",
+ "icon": "sexlist.png",
+ "html": {
+  "site": "https://sexlist.tv",
+  "search": "https://sexlist.tv/search/{qp}/",
+  "searchPage": "https://sexlist.tv/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb-img-wrapper\"",
+  "href": "href=\"(https?://www\\.sexlist\\.tv/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

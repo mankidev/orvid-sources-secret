@@ -1,0 +1,20 @@
+{
+ "id": "myxxx",
+ "name": "Myxxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "myxxx\\.wtf/videos/[^\\s\"?#]+",
+ "icon": "myxxx.png",
+ "html": {
+  "site": "https://myxxx.wtf",
+  "search": "https://myxxx.wtf/search/{qp}/",
+  "searchPage": "https://myxxx.wtf/search/{qp}/{p}/",
+  "card": "<div class=\"thumb-inner\"",
+  "href": "href=\"(https?://myxxx\\.wtf/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "id": "rule34porno",
+ "name": "Rule34porno",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "rule34porno\\.cc/video/[^\\s\"?#]+",
+ "icon": "rule34porno.png",
+ "html": {
+  "site": "https://rule34porno.cc",
+  "search": "https://rule34porno.cc/search?q={qp}",
+  "searchPage": "https://rule34porno.cc/search?q={qp}&page={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "linkPrefix": "https://rule34porno.cc"
+ }
+}

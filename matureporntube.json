@@ -1,0 +1,20 @@
+{
+ "id": "matureporntube",
+ "name": "Matureporntube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "matureporntube\\.tv/videos/[^\\s\"?#]+",
+ "icon": "matureporntube.png",
+ "html": {
+  "site": "https://matureporntube.tv",
+  "search": "https://matureporntube.tv/search/{qp}/",
+  "searchPage": "https://matureporntube.tv/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://matureporntube\\.tv/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

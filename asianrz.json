@@ -1,0 +1,19 @@
+{
+ "id": "asianrz",
+ "name": "Asianrz",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "asianrz\\.com/video/[^\\s\"?#]+",
+ "icon": "asianrz.png",
+ "html": {
+  "site": "https://asianrz.com",
+  "search": "https://asianrz.com/search/{qp}/",
+  "searchPage": "https://asianrz.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-tool\"",
+  "href": "href=\"(https?://asianrz\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

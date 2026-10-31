@@ -1,0 +1,19 @@
+{
+ "id": "naughtyporner",
+ "name": "Naughtyporner",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "naughtyporner\\.com/video/[^\\s\"?#]+",
+ "icon": "naughtyporner.png",
+ "html": {
+  "site": "https://www.naughtyporner.com",
+  "search": "https://www.naughtyporner.com/search/{qp}/",
+  "searchPage": "https://www.naughtyporner.com/search/{qp}/{p}/",
+  "card": "<div class=\"item-bg\"",
+  "href": "href=\"(https?://www\\.naughtyporner\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "paged": true,
+  "thumb": "data-original=\"((?:https?:)?/[^\"\\s]+\\.(?:jpe?g|webp|png)[^\"\\s]*)\""
+ }
+}

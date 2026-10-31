@@ -1,0 +1,19 @@
+{
+ "id": "animehentaixhub",
+ "name": "Animehentaixhub",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "animehentaixhub\\.com/video/[^\\s\"?#]+",
+ "icon": "animehentaixhub.png",
+ "html": {
+  "site": "https://animehentaixhub.com",
+  "search": "https://animehentaixhub.com/search/{qp}/",
+  "searchPage": "https://animehentaixhub.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://animehentaixhub\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

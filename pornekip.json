@@ -1,0 +1,20 @@
+{
+ "id": "pornekip",
+ "name": "Pornekip",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornekip\\.com/video/[^\\s\"?#]+",
+ "icon": "pornekip.png",
+ "html": {
+  "site": "https://pornekip.com",
+  "search": "https://pornekip.com/search/{qp}/",
+  "searchPage": "https://pornekip.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.pornekip\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "id": "fuckingbear",
+ "name": "Fuckingbear",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "fuckingbear\\.com/video/[^\\s\"?#]+",
+ "icon": "fuckingbear.png",
+ "html": {
+  "site": "https://fuckingbear.com",
+  "search": "https://fuckingbear.com/search/{qp}/",
+  "searchPage": "https://fuckingbear.com/search/{qp}/?from_videos={p}",
+  "card": "<a class=\"card__wrap root__link\"",
+  "href": "href=\"(https?://www\\.fuckingbear\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-webp=\"(https?://[^\"]+\\.jpg)\"",
+  "paged": true
+ }
+}

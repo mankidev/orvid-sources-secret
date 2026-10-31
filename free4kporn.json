@@ -1,0 +1,19 @@
+{
+ "id": "free4kporn",
+ "name": "Free4kporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "free4kporn\\.com/video/[^\\s\"?#]+",
+ "icon": "free4kporn.png",
+ "html": {
+  "site": "https://free4kporn.com",
+  "search": "https://free4kporn.com/search/{qp}/",
+  "searchPage": "https://free4kporn.com/search/{qp}/{p}/",
+  "card": "<div class=\"th item\"",
+  "href": "href=\"(https?://www\\.free4kporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "paged": true,
+  "thumb": "data-original=\"((?:https?:)?/[^\"\\s]+\\.(?:jpe?g|webp|png)[^\"\\s]*)\""
+ }
+}

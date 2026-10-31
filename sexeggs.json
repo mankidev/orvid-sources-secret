@@ -1,0 +1,18 @@
+{
+ "id": "sexeggs",
+ "name": "Sexeggs",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexeggs\\.org/video/[^\\s\"?#]+",
+ "icon": "sexeggs.png",
+ "html": {
+  "site": "https://sexeggs.org",
+  "search": "https://sexeggs.org/?s={qp}",
+  "card": "<a class=\"kt_imgrc\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://sexeggs.org"
+ }
+}

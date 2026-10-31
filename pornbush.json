@@ -1,0 +1,19 @@
+{
+ "id": "pornbush",
+ "name": "Pornbush",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornbush\\.com/video/[^\\s\"?#]+",
+ "icon": "pornbush.png",
+ "html": {
+  "site": "https://pornbush.com",
+  "search": "https://pornbush.com/search/{qp}/",
+  "searchPage": "https://pornbush.com/search/{qp}/{p}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.pornbush\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "paged": true,
+  "thumb": "data-src=\"((?:https?:)?/[^\"\\s]+\\.(?:jpe?g|webp|png)[^\"\\s]*)\""
+ }
+}

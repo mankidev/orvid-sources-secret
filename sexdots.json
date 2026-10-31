@@ -1,0 +1,21 @@
+{
+ "id": "sexdots",
+ "name": "Sexdots",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "sexdots\\.com/video/[^\\s\"?#]+",
+ "icon": "sexdots.png",
+ "html": {
+  "site": "https://sexdots.com",
+  "search": "https://sexdots.com/search/{qp}/",
+  "searchPage": "https://sexdots.com/search/{qp}/{p}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "linkPrefix": "https://sexdots.com"
+ }
+}

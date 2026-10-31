@@ -1,0 +1,18 @@
+{
+ "id": "pornbokep",
+ "name": "Porn-bokep",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "porn\\-bokep\\.com/v/[^\\s\"?#]+",
+ "icon": "pornbokep.png",
+ "html": {
+  "site": "https://porn-bokep.com",
+  "search": "https://porn-bokep.com/search/{qp}",
+  "card": "<a class=\"text-decoration-none link-dark\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://porn-bokep.com"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "allmatureporn",
+ "name": "Allmatureporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "allmatureporn\\.tv/videos/[^\\s\"?#]+",
+ "icon": "allmatureporn.png",
+ "html": {
+  "site": "https://allmatureporn.tv",
+  "search": "https://allmatureporn.tv/search/{qp}/",
+  "searchPage": "https://allmatureporn.tv/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://allmatureporn\\.tv/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}
