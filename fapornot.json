@@ -1,0 +1,10 @@
+{
+ "id": "fapornot",
+ "name": "Fapornot",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?fapornot\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "fapornot.png",
+ "script": "fapornot.js"
+}

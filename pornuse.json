@@ -1,0 +1,10 @@
+{
+ "id": "pornuse",
+ "name": "Pornuse",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?pornuse\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "pornuse.png",
+ "script": "pornuse.js"
+}

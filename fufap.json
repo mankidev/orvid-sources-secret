@@ -1,0 +1,10 @@
+{
+ "id": "fufap",
+ "name": "Fufap",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "https?://(?:www\\.)?fufap\\.com/(?:videos?[/-]|embed/)(\\d+)",
+ "icon": "fufap.png",
+ "script": "fufap.js"
+}
