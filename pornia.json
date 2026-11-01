@@ -1,0 +1,21 @@
+{
+ "id": "pornia",
+ "name": "Pornia",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornia\\.com/video/[^\\s\"?#]+",
+ "icon": "pornia.png",
+ "html": {
+  "site": "https://pornia.com",
+  "search": "https://pornia.com/search/?q={qp}",
+  "searchPage": "https://pornia.com/search/?q={qp}&page={p}",
+  "card": "<article class=\"video-card\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "linkPrefix": "https://pornia.com",
+  "thumb": "src=\"(/storage/thumbnails/[^\"]+)\""
+ }
+}

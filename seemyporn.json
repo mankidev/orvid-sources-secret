@@ -1,0 +1,19 @@
+{
+ "id": "seemyporn",
+ "name": "Seemyporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "seemyporn\\.com/videos/[^\\s\"?#]+",
+ "icon": "seemyporn.png",
+ "html": {
+  "site": "https://seemyporn.com",
+  "search": "https://seemyporn.com/search/{qp}/",
+  "searchPage": "https://seemyporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.seemyporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

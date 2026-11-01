@@ -1,0 +1,20 @@
+{
+ "id": "xgirls",
+ "name": "Xgirls",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "xgirls\\.webcam/video/[^\\s\"?#]+",
+ "icon": "xgirls.png",
+ "html": {
+  "site": "https://xgirls.webcam",
+  "search": "https://xgirls.webcam/search/{qp}/",
+  "searchPage": "https://xgirls.webcam/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://xgirls\\.webcam/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

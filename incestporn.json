@@ -1,0 +1,18 @@
+{
+ "id": "incestporn",
+ "name": "Incestporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "incestporn\\.love/video/[^\\s\"?#]+",
+ "icon": "incestporn.png",
+ "html": {
+  "site": "https://incestporn.love",
+  "search": "https://incestporn.love/search/{qp}/",
+  "card": "<div class=\"thumb\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "linkPrefix": "https://incestporn.love",
+  "thumb": "src=\"(/th/[^\"]+\\.jpg)\""
+ }
+}
