@@ -1,0 +1,17 @@
+{
+ "id": "aliensfuckedme",
+ "name": "Aliensfuckedme",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "aliensfuckedme\\.com/videos/[^\\s\"?#]+",
+ "icon": "aliensfuckedme.png",
+ "html": {
+  "site": "https://aliensfuckedme.com",
+  "search": "https://aliensfuckedme.com/search/{qp}/",
+  "card": "<a class=\"afm-card\"",
+  "href": "href=\"(https?://www\\.aliensfuckedme\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

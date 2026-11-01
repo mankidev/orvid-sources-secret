@@ -1,0 +1,18 @@
+{
+ "id": "abchoes",
+ "name": "Abchoes",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "abchoes\\.com/videos/[^\\s\"?#]+",
+ "icon": "abchoes.png",
+ "html": {
+  "site": "https://abchoes.com",
+  "search": "https://abchoes.com/search/{qp}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.abchoes\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

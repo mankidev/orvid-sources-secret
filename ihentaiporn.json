@@ -1,0 +1,19 @@
+{
+ "id": "ihentaiporn",
+ "name": "Ihentaiporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "ihentaiporn\\.com/video/[^\\s\"?#]+",
+ "icon": "ihentaiporn.png",
+ "html": {
+  "site": "https://ihentaiporn.com",
+  "search": "https://ihentaiporn.com/search/{qp}/",
+  "searchPage": "https://ihentaiporn.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://ihentaiporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

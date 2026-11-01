@@ -1,0 +1,18 @@
+{
+ "id": "perkybabes",
+ "name": "Perkybabes",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "perkybabes\\.com/videos/[^\\s\"?#]+",
+ "icon": "perkybabes.png",
+ "html": {
+  "site": "https://perkybabes.com",
+  "search": "https://perkybabes.com/search/{qp}/",
+  "card": "<div class=\"thumb thumb_rel item\"",
+  "href": "href=\"(https?://www\\.perkybabes\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

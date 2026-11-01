@@ -1,0 +1,20 @@
+{
+ "id": "mytrendyporn",
+ "name": "Mytrendyporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "mytrendyporn\\.com/video/[^\\s\"?#]+",
+ "icon": "mytrendyporn.png",
+ "html": {
+  "site": "https://www.mytrendyporn.com",
+  "search": "https://www.mytrendyporn.com/search/{qp}/",
+  "searchPage": "https://www.mytrendyporn.com/search/{qp}/page{p}.html",
+  "card": "<div class=\"thumb-overlay videopreview\"",
+  "href": "href=\"(https?://www\\.mytrendyporn\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

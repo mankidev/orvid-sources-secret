@@ -1,0 +1,18 @@
+{
+ "id": "upyourdooper",
+ "name": "Upyourdooper",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "upyourdooper\\.com/videos/[^\\s\"?#]+",
+ "icon": "upyourdooper.png",
+ "html": {
+  "site": "https://upyourdooper.com",
+  "search": "https://upyourdooper.com/search/{qp}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.upyourdooper\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

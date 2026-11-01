@@ -1,0 +1,17 @@
+{
+ "id": "tatbabes",
+ "name": "Tatbabes",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "tatbabes\\.com/videos/[^\\s\"?#]+",
+ "icon": "tatbabes.png",
+ "html": {
+  "site": "https://tatbabes.com",
+  "search": "https://tatbabes.com/search/{qp}/",
+  "card": "<article class=\"tb-card p4\"",
+  "href": "href=\"(https?://www\\.tatbabes\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}

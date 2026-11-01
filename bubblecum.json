@@ -1,0 +1,19 @@
+{
+ "id": "bubblecum",
+ "name": "Bubblecum",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bubblecum\\.com/video/[^\\s\"?#]+",
+ "icon": "bubblecum.png",
+ "html": {
+  "site": "https://bubblecum.com",
+  "search": "https://bubblecum.com/search/{qp}/",
+  "searchPage": "https://bubblecum.com/search/{qp}/?from_videos={p}",
+  "card": "<a class=\"card\"",
+  "href": "href=\"(https?://www\\.bubblecum\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

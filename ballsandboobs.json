@@ -1,0 +1,17 @@
+{
+ "id": "ballsandboobs",
+ "name": "Ballsandboobs",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "ballsandboobs\\.com/videos/[^\\s\"?#]+",
+ "icon": "ballsandboobs.png",
+ "html": {
+  "site": "https://ballsandboobs.com",
+  "search": "https://ballsandboobs.com/search/{qp}/",
+  "card": "<a class=\"bnb-card\"",
+  "href": "href=\"(https?://www\\.ballsandboobs\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\""
+ }
+}
