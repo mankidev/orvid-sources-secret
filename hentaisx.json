@@ -1,0 +1,20 @@
+{
+ "id": "hentaisx",
+ "name": "Hentaisx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hentaisx\\.com/video/[^\\s\"?#]+",
+ "icon": "hentaisx.png",
+ "html": {
+  "site": "https://hentaisx.com",
+  "search": "https://hentaisx.com/search/{qp}/",
+  "searchPage": "https://hentaisx.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://www\\.hentaisx\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

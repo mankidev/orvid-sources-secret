@@ -1,0 +1,20 @@
+{
+ "id": "darkfetishtube",
+ "name": "Darkfetishtube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "darkfetishtube\\.com/video/[^\\s\"?#]+",
+ "icon": "darkfetishtube.png",
+ "html": {
+  "site": "https://darkfetishtube.com",
+  "search": "https://darkfetishtube.com/search/{qp}/",
+  "searchPage": "https://darkfetishtube.com/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"thumb thumb_rel item  \"",
+  "href": "href=\"(https?://darkfetishtube\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

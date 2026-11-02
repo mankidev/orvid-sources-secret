@@ -1,0 +1,19 @@
+{
+ "id": "pornbaron",
+ "name": "Pornbaron",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornbaron\\.net/videos/[^\\s\"?#]+",
+ "icon": "pornbaron.png",
+ "html": {
+  "site": "https://pornbaron.net",
+  "search": "https://pornbaron.net/search/{qp}/",
+  "searchPage": "https://pornbaron.net/search/{qp}/{p}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.pornbaron\\.net/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "paged": true
+ }
+}

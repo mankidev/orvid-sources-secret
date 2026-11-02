@@ -1,0 +1,18 @@
+{
+ "id": "bfxxxx",
+ "name": "Bfxxxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "bfxxxx\\.net/video/[^\\s\"?#]+",
+ "icon": "bfxxxx.png",
+ "html": {
+  "site": "https://www.bfxxxx.net",
+  "search": "https://www.bfxxxx.net/bf/{qp}/",
+  "card": "<div class=\"item\"",
+  "href": "href=\"(https?://www\\.bfxxxx\\.net/(?:videos?|v|watch|clip)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "id": "hotmilfzone",
+ "name": "Hotmilfzone",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "hotmilfzone\\.com/video/[^\\s\"?#]+",
+ "icon": "hotmilfzone.png",
+ "html": {
+  "site": "https://hotmilfzone.com",
+  "search": "https://hotmilfzone.com/search/{qp}/",
+  "card": "<div class=\"video-item swiper-slide\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "&#34;title&#34;:&#34;([^&]+)&#34;",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://hotmilfzone.com"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "id": "drporntube",
+ "name": "Drporntube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "drporntube\\.com/videos/[^\\s\"?#]+",
+ "icon": "drporntube.png",
+ "html": {
+  "site": "https://drporntube.com",
+  "search": "https://drporntube.com/search/{qp}/",
+  "searchPage": "https://drporntube.com/search/{qp}/page{p}.html",
+  "card": "<div class=\"item-col col -video\"",
+  "href": "href=\"(https?://drporntube\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

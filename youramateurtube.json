@@ -1,0 +1,17 @@
+{
+ "id": "youramateurtube",
+ "name": "Youramateurtube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "youramateurtube\\.com/video/[^\\s\"?#]+",
+ "html": {
+  "site": "https://youramateurtube.com",
+  "search": "https://youramateurtube.com/search/{qp}/",
+  "card": "<div class=\"card video-card h-100\"",
+  "href": "href=\"(https?://youramateurtube\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"[^\"]*(?:duration|time)[^\"]*\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})"
+ }
+}

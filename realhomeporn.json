@@ -1,0 +1,20 @@
+{
+ "id": "realhomeporn",
+ "name": "Realhomeporn",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "realhomeporn\\.org/video/[^\\s\"?#]+",
+ "icon": "realhomeporn.png",
+ "html": {
+  "site": "https://realhomeporn.org",
+  "search": "https://realhomeporn.org/search/{qp}/",
+  "searchPage": "https://realhomeporn.org/search/{qp}/?from_videos={p}",
+  "card": "<div class=\"item  \"",
+  "href": "href=\"(https?://realhomeporn\\.org/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

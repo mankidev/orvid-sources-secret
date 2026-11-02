@@ -1,0 +1,18 @@
+{
+ "id": "figaxxx",
+ "name": "Figaxxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "figaxxx\\.com/video/[^\\s\"?#]+",
+ "icon": "figaxxx.png",
+ "html": {
+  "site": "https://figaxxx.com",
+  "search": "https://figaxxx.com/search/{qp}",
+  "card": "<div class=\"thumb-in\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "alt=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://figaxxx.com"
+ }
+}

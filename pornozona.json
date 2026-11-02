@@ -1,0 +1,20 @@
+{
+ "id": "pornozona",
+ "name": "Pornozona",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "pornozona\\.mobi/videos/[^\\s\"?#]+",
+ "icon": "pornozona.png",
+ "html": {
+  "site": "https://pornozona.mobi",
+  "search": "https://pornozona.mobi/search/{qp}/",
+  "searchPage": "https://pornozona.mobi/search/{qp}/{p}/",
+  "card": "<li class=\"thumb\"",
+  "href": "href=\"(https?://pornozona\\.mobi/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

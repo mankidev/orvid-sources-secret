@@ -1,0 +1,20 @@
+{
+ "id": "clipsxxx",
+ "name": "Clipsxxx",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "clipsxxx\\.wtf/videos/[^\\s\"?#]+",
+ "icon": "clipsxxx.png",
+ "html": {
+  "site": "https://clipsxxx.wtf",
+  "search": "https://clipsxxx.wtf/search/{qp}/",
+  "searchPage": "https://clipsxxx.wtf/search/{qp}/{p}/",
+  "card": "<div class=\"thumb-inner\"",
+  "href": "href=\"(https?://clipsxxx\\.wtf/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

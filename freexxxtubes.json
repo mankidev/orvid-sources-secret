@@ -1,0 +1,18 @@
+{
+ "id": "freexxxtubes",
+ "name": "FreeXXXTubes",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "free\\-xxx\\-tubes\\.com/watch/[^\\s\"?#]+",
+ "icon": "freexxxtubes.png",
+ "html": {
+  "site": "https://free-xxx-tubes.com",
+  "search": "https://free-xxx-tubes.com/search/{qp}",
+  "card": "<div class=\"thumb-in\"",
+  "href": "href=\"(/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "src=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "linkPrefix": "https://free-xxx-tubes.com"
+ }
+}

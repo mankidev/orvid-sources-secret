@@ -1,0 +1,20 @@
+{
+ "id": "daftsextube",
+ "name": "Daftsextube",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "daftsextube\\.com/video/[^\\s\"?#]+",
+ "icon": "daftsextube.png",
+ "html": {
+  "site": "https://www.daftsextube.com",
+  "search": "https://www.daftsextube.com/search/{qp}/",
+  "searchPage": "https://www.daftsextube.com/search/{qp}/page{p}.html",
+  "card": "<div class=\"video-rating pull-right no-rating\"",
+  "href": "href=\"(https?://www\\.daftsextube\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "thumb": "data-original=\"(https?://[^\"]+\\.(?:jpg|webp))\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true
+ }
+}

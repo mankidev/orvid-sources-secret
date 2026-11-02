@@ -1,0 +1,20 @@
+{
+ "id": "momzr",
+ "name": "Momzr",
+ "version": 1,
+ "adult": true,
+ "weight": 0.5,
+ "match": "momzr\\.com/videos/[^\\s\"?#]+",
+ "icon": "momzr.png",
+ "html": {
+  "site": "https://www.momzr.com",
+  "search": "https://www.momzr.com/search/{qp}/",
+  "searchPage": "https://www.momzr.com/search/{qp}/?page={p}",
+  "card": "<div class=\"item is-hd-item\"",
+  "href": "href=\"(https?://www\\.momzr\\.com/(?:videos?|v|watch)/[^\"#?]+)\"",
+  "title": "title=\"([^\"]+)\"",
+  "duration": "class=\"duration\"[^>]*>\\s*(?:<[^>]+>\\s*)*([0-9:]{4,8})",
+  "paged": true,
+  "thumb": "src=\"(/contents/videos_scr[e]enshots/[^\"]+\\.jpg)\""
+ }
+}
